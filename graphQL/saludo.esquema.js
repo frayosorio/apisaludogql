@@ -1,5 +1,5 @@
 exports.tipos = `
 type Query{
-    saludar: String
+    saludar(idioma: String): String
 }
 `
